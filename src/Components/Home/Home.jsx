@@ -5,11 +5,11 @@ import Presentation from "./Presentation";
 
 const Home = () => {
   return (
-    <section>
-      <div className='home__container container grid'>
-        <div className='home__content grid'>
+    <section className="home section" id="home">
+      <div className='home-container container grid'>
+        <div className='home-content grid'>
           <Social />
-          <div className='home__img'></div>
+          <div className='home-img'></div>
           <Presentation />
         </div>
         <ScrollDown />

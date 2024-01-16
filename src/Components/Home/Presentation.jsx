@@ -1,6 +1,6 @@
 import hand from "../../assets/hand.svg";
 import send from "../../assets/send.svg";
-
+import'./Presentation.scss';
 
 const Presentation = () => {
     return (

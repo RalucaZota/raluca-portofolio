@@ -1,12 +1,12 @@
 
 import './App.css';
-import { Fragment } from 'react';
-import Presentation from './Components/Home/Presentation';
+
+import Home from './Components/Home/Home';
 
 function App() {
   return (
     <>
-    <Presentation/>
+    <Home/>
 
     </>
   );

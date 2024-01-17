@@ -10,7 +10,7 @@ const About = () => {
       <div className="about-container container grid">
         <div className="about-img"></div>
         <div className="about-data">
-          {/* <Info /> */}
+          <Info />
           <p className="about-description">
             Hello! I'm a passionate 28 year old Frontend Developer with over 3
             years of valuable experience. Currently based in the beautiful city

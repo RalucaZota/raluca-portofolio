@@ -129,8 +129,8 @@ img {
   margin-bottom: 3rem;
 }
 
-.section__title,
-.section__subtitle {
+.section-title,
+span.section-subtitle {
   text-align: center;
 }
 

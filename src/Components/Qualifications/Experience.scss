@@ -1,10 +1,10 @@
-.qualification__container {
+.qualification-container {
     max-width: 768px;
-    .qualification__tabs {
+    .qualification-tabs {
       display: flex;
       justify-content: center;
       margin-bottom: var(--mb-2);
-      .qualification__button {
+      .qualification-button {
         font-size: var(--h3-font-size);
         font-weight: var(--font-medium);
         color: var(--title-color);
@@ -15,45 +15,45 @@
           scale: 1.1;
           color: orange;
         }
-        .qualification__icon {
+        .qualification-icon {
           font-size: 1.8rem;
           margin-right: var(--mb-0-25);
         }
       }
-      .qualification__active {
+      .qualification-active {
         color: var(--title-color-dark);
       }
     }
-    .qualification__sections {
+    .qualification-sections {
       display: grid;
       justify-content: center;
       position: relative;
-      .qualification__content {
-        .qualification__data {
+      .qualification-content {
+        .qualification-data {
           display: grid;
           grid-template-columns: 1fr max-content 1fr;
           column-gap: 3px;
           margin-bottom: 15px;
-          .qualification__title {
+          .qualification-title {
             font-size: var(--normal-font-size);
             font-weight: var(--font-medium);
           }
-          .qualification__subtitle {
+          .qualification-subtitle {
             display: inline-block;
             font-size: var(--small-font-size);
             margin-bottom: 5px;
           }
-          .qualification__calendar {
+          .qualification-calendar {
             font-size: var(--small-font-size);
           }
-          .qualification__rounder {
+          .qualification-rounder {
             display: inline-block;
             width: 13px;
             height: 13px;
             background-color: var(--text-color);
             border-radius: 50%;
           }
-          .qualification__line {
+          .qualification-line {
             display: block;
             width: 1px;
             height: 100%;
@@ -68,19 +68,19 @@
         .qualification__dataa {
           display: grid;
           margin-bottom: 15px;
-          .qualification__titlee {
+          .qualification-titlee {
             font-size: var(--normal-font-size);
             font-weight: var(--font-medium);
           }
-          .qualification__subtitlee {
+          .qualification-subtitlee {
             display: inline-block;
             font-size: var(--small-font-size);
             margin-bottom: 5px;
           }
-          .qualification__calendare {
+          .qualification-calendare {
             font-size: var(--small-font-size);
           }
-          .qualification__roundere {
+          .qualification-roundere {
             display: inline-block;
             width: 13px;
             height: 13px;
@@ -102,7 +102,7 @@
   /*=============== BREAKPOINTS ===============*/
   /* For large devices */
   @media screen and (max-width: 992px) {
-    .qualification__container {
+    .qualification-container {
       margin-left: auto;
       margin-right: auto;
     }
@@ -110,10 +110,10 @@
   
   /* For medium devices */
   @media screen and (max-width: 768px) {
-    .qualification__container {
+    .qualification-container {
       margin-left: var(--mb-1-5);
       margin-right: var(--mb-1-5);
-      .qualification__sections {
+      .qualification-sections {
         .pos-abs {
         }
       }
@@ -121,11 +121,11 @@
   }
   
   @media screen and (max-width: 576px) {
-    .qualification__sections {
+    .qualification-sections {
       grid-template-columns: initial;
     }
-    .qualification__tabs {
-      .qualification__button {
+    .qualification-tabs {
+      .qualification-button {
         margin: 0 var(--mb-0-75);
       }
     }
@@ -133,7 +133,7 @@
   
   /* For small devices */
   @media screen and (max-width: 350px) {
-    .qualification__data {
+    .qualification-data {
       gap: 0.5rem;
     }
   }

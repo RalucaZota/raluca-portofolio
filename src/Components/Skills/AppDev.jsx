@@ -28,7 +28,7 @@ export const Appdev = () => {
   
     return (
       <div className="skills-content">
-        <h3 className="skills-title">App developer</h3>
+        {/* <h3 className="skills-title">App developer</h3>
         <div className="skills-box">
           <div className="skills-group">
             {Appdev.map((item, index) => {
@@ -43,7 +43,7 @@ export const Appdev = () => {
               );
             })}
           </div>
-        </div>
+        </div> */}
       </div>
     );
   };

@@ -15,7 +15,7 @@ const Experience = () => {
     {
       role: "Frontend-Dev.",
       name: "IT-School",
-      date: "2019 - 2020",
+      date: "apr 2022 - oct 2022",
     },
     {
       role: "Computer Science",
@@ -44,50 +44,50 @@ const Experience = () => {
 
   return (
     <section className="qualification section">
-      <h2 className="section__title">Qualifications</h2>
-      <span className="section__subtitle">My journey</span>
+      <h2 className="section-title">Qualifications</h2>
+      <span className="presentation-subtitle">My journey</span> 
 
-      <div className="qualification__container container">
-        <div className="qualification__tabs">
-          <div className="qualification__button qualification__active button--flex">
-            <i className="uil uil-graduation-cap qualification__icon"></i>{" "}
+      <div className="qualification-container container">
+        <div className="qualification-tabs">
+          <div className="qualification-button qualification-active button--flex">
+            <i className="uil uil-graduation-cap qualification-icon"></i>{" "}
             Education
           </div>
-          <div className="qualification__button qualification__active button--flex">
-            <i className="uil uil-briefcase-alt qualification__icon"></i>{" "}
+          <div className="qualification-button qualification-active button--flex">
+            <i className="uil uil-briefcase-alt qualification-icon"></i>{" "}
             Experience
           </div>
         </div>
-        <div className="qualification__sections">
-          <div className="qualification__content qualification__content-active">
+        <div className="qualification-sections">
+          <div className="qualification-content qualification-content-active">
             {Education.map((item, index) => {
               return (
-                <div key={index} className="qualification__data">
+                <div key={index} className="qualification-data">
                   <div>
-                    <h3 className="qualification__title">{item.role}</h3>
-                    <span className="qualification__subtitle">{item.name}</span>
-                    <div className="qualification__calendar">
+                    <h3 className="qualification-title">{item.role}</h3>
+                    <span className="qualification_-ubtitle">{item.name}</span>
+                    <div className="qualification-calendar">
                       <i className="uil uil-calendar-alt"></i> {item.date}
                     </div>
                   </div>
                   <div>
-                    <span className="qualification__rounder"></span>
-                    <span className="qualification__line"></span>
+                    <span className="qualification-rounder"></span>
+                    <span className="qualification-line"></span>
                   </div>
                 </div>
               );
             })}
           </div>
-          <div className="pos-abs qualification__content-active">
+          <div className="pos-abs qualification-content-active">
             {Experience.map((item, index) => {
               return (
-                <div key={index} className="qualification__dataa">
+                <div key={index} className="qualification-dataa">
                   <div>
-                    <h3 className="qualification__titlee">{item.role}</h3>
-                    <span className="qualification__subtitlee">
+                    <h3 className="qualification-titlee">{item.role}</h3>
+                    <span className="qualification-subtitlee">
                       {item.name}
                     </span>
-                    <div className="qualification__calendare">
+                    <div className="qualification-calendare">
                       <i className="uil uil-calendar-alt"></i> {item.date}
                     </div>
                   </div>

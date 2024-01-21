@@ -6,18 +6,18 @@ const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section-title">About me</h2>
-      <span className="section-subtitle">My introduction</span>
+      <span className="presentation-subtitle">My introduction</span>
       <div className="about-container container grid">
         <div className="about-img"></div>
         <div className="about-data">
           <Info />
           <p className="about-description">
-            Hello! I'm a passionate 28 year old Frontend Developer with over 3
+            Hello! I'm a passionate 24 year old Frontend Developer with over 1.8
             years of valuable experience. Currently based in the beautiful city
             of Iasi. Throughout my career, I've contributed to various projects,
             leaving my mark on the development of innovative and functional
             interfaces. With strong skills in technologies like JavaScript,
-            React, Vue and Flutter, I'm dedicated to creating engaging and
+            React, Vue, I'm dedicated to creating engaging and
             user-friendly digital experiences. I enjoy exploring and
             implementing creative solutions to bring value to the projects I
             work on. I enthusiastically share my knowledge and experience,

@@ -12,18 +12,7 @@ const About = () => {
         <div className="about-data">
           <Info />
           <p className="about-description">
-            Hello! I'm a passionate 24 year old Frontend Developer with over 1.8
-            years of valuable experience. Currently based in the beautiful city
-            of Iasi. Throughout my career, I've contributed to various projects,
-            leaving my mark on the development of innovative and functional
-            interfaces. With strong skills in technologies like JavaScript,
-            React, Vue, I'm dedicated to creating engaging and
-            user-friendly digital experiences. I enjoy exploring and
-            implementing creative solutions to bring value to the projects I
-            work on. I enthusiastically share my knowledge and experience,
-            contributing to the success of every project I'm involved in. Beyond
-            code, I'm always open to new challenges and professional development
-            in a dynamic and innovative environment.
+            Hi! I am a dedicated frontend developer with over 1.8 years of experience, I bring proficiency in Vue.js, React, and JavaScript to the table. My journey in web development covers substantial contributions to diverse projects, reflecting a commitment to delivering innovative and high-quality solutions. I enjoy exploring and implementing creative solutions to bring value to the projects I work on. I enthusiastically share my knowledge and experience, contributing to the success of every project I'm involved in. I am eager to continually broaden my skill set and and I would like to develop on the mobile side as well. With hands-on experience in these technologies, coupled with a proven track record of successful project collaborations, I am enthusiastic about tackling new challenges and advancing my expertise in this ever-evolving industry.
           </p>
           <a
             download="LORENRALUCAZOTA.pdf"

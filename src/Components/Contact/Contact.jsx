@@ -19,7 +19,7 @@ export const Contact = () => {
       "service_nero1bk",
       "template_o6ceysr",
       form.current,
-      "DfukBKtNt2ozNpVRt"
+      "gclxRzzi7Rvs90-if" 
     );
     e.target.reset();
     setFormData({ name: "", email: "", message: "" });

@@ -1,32 +1,24 @@
-export const Frontend = () => {
-    const FrontendSkills2 = [
+export const FrontendSkills = () => {
+    const FrontendSkills = [
       {
-        name: "HTML",
-        experience: "Proficient",
-      },
-      {
-        name: "CSS/SASS",
+        name: "npm",
         experience: "Advanced",
       },
       {
-        name: "JavaScript",
-        experience: "Proficient",
-      },
-      {
-        name: "React JS",
+        name: "Clickup",
         experience: "Advanced",
       },
       {
-        name: "Vue JS",
-        experience: "Proficient",
-      },
-      {
-        name: "Bootstrap",
+        name: "React Router",
         experience: "Advanced",
       },
       {
-        name: "Redux",
-        experience: "Advanced",
+        name: "Github/Gitlab",
+        experience: " Advanced",
+      },
+      {
+        name: "Vuetify",
+        experience: "Intermediate",
       },
     ];
     const aditionalSkills = [
@@ -41,26 +33,13 @@ export const Frontend = () => {
       {
         name: "Scrum/Agile",
         experience: "Advanced",
-      },
-      {
-        name: "Typescript",
-        experience: "Advanced",
-      },
-      {
-        name: "Figma",
-        experience: "Advanced",
-      },
-      {
-        name: "Testing",
-        experience: "Advanced",
-      },
-    ];
+      } ]
   
     return (
       <div className="skills-content">
         <div className="skills-box">
           <div className="skills-group">
-            {FrontendSkills2.map((item, index) => {
+            {FrontendSkills.map((item, index) => {
               return (
                 <div key={index} className="skills-data">
                   <i className="bx bx-badge-check"></i>
@@ -71,8 +50,8 @@ export const Frontend = () => {
                 </div>
               );
             })}
-          </div>
-          <div className="skills-group">
+            </div>
+             <div className="skills-group">
             {aditionalSkills.map((item, index) => {
               return (
                 <div key={index} className="skills-data">

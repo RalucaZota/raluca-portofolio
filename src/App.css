@@ -128,6 +128,11 @@ img {
   font-size: var(--small-font-size);
   margin-bottom: 3rem;
 }
+.section-title-frontend {
+  margin-bottom: 20px;
+  margin-top: -30px;
+  text-align: center;
+}
 
 .section-title,
 span.presentation-subtitle {

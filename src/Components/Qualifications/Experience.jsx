@@ -69,8 +69,8 @@ const Experience = () => {
               return (
                 <div key={index} className="qualification-data">
                   <div>
-                    <h3 className="qualification-title">{item.role}</h3>
-                    <span className="qualification_-ubtitle">{item.name}</span>
+                    <h3 className="qualification-titlee">{item.role}</h3>
+                    <span className="qualification-subtitle">{item.name}</span>
                     <div className="qualification-calendar">
                       <i className="uil uil-calendar-alt"></i> {item.date}
                     </div>

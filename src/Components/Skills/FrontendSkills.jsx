@@ -21,19 +21,6 @@ export const FrontendSkills = () => {
         experience: "Intermediate",
       },
     ];
-    const aditionalSkills = [
-      {
-        name: "Material UI",
-        experience: "Proficient",
-      },
-      {
-        name: "Git",
-        experience: "Advanced",
-      },
-      {
-        name: "Scrum/Agile",
-        experience: "Advanced",
-      } ]
   
     return (
       <div className="skills-content">
@@ -52,17 +39,6 @@ export const FrontendSkills = () => {
             })}
             </div>
              <div className="skills-group">
-            {aditionalSkills.map((item, index) => {
-              return (
-                <div key={index} className="skills-data">
-                  <i className="bx bx-badge-check"></i>
-                  <div>
-                    <h3 className="skills-name">{item.name}</h3>
-                    <span className="skills-level">{item.experience}</span>
-                  </div>
-                </div>
-              );
-            })}
           </div>
         </div>
       </div>

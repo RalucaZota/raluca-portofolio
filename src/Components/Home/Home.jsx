@@ -15,7 +15,7 @@ const Home = () => {
         <ScrollDown />
       </div>
     </section>
-  );
+  ); 
 };
 
 export default Home;

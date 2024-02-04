@@ -26,9 +26,14 @@ const Experience = () => {
 
   const Experience = [
     {
-      role: "",
-      name: "",
-      date: "",
+      role: "German Speaking Financial Accountant",
+      name: "Unicredit",
+      date: "july 2021 - jan 2022",
+    },  
+    {
+      role: "Digital Development Representative with German",
+      name: "Lenovo",
+      date: "jan 2022 - july 2022",
     },
     {
       role: "Frontend-Dev.",

@@ -54,6 +54,10 @@ export const Frontend = () => {
         name: "Testing",
         experience: "Advanced",
       },
+      {
+        name: "Material UI",
+        experience: "Proficient",
+      } 
     ];
   
     return (

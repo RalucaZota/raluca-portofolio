@@ -25,11 +25,8 @@ export const Contact = () => {
     setFormData({ name: "", email: "", message: "" });
   };
 
-  console.log(formData);
-
   const handleChange = (e) => {
     const { name, value } = e.target;
-    console.log(name, value)
     setFormData((prevData) => ({
         ...prevData,
         [name]: value,

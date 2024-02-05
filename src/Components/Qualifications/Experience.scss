@@ -35,7 +35,7 @@
           column-gap: 3px;
           margin-bottom: 15px;
           .qualification-title {
-            font-size: var(--normal-font-size);
+            font-size: 16px;
             font-weight: var(--font-medium);
           }
           .qualification-subtitle {
@@ -65,11 +65,11 @@
       .pos-abs {
         position: absolute;
         left: 58%;
-        .qualification__dataa {
+        .qualification-data {
           display: grid;
           margin-bottom: 15px;
           .qualification-titlee {
-            font-size: var(--normal-font-size);
+            font-size: 16px !important;
             font-weight: var(--font-medium);
           }
           .qualification-subtitlee {

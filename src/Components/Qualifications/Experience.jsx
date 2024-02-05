@@ -8,7 +8,7 @@ const Experience = () => {
       date: "2014 - 2018",
     },
     {
-      role: "Translation and Interpretation English-German",
+      role: "Eng-Ge Translation",
       name: "A.I.Cuza Univ",
       date: "2018 - 2021",
     },
@@ -26,12 +26,12 @@ const Experience = () => {
 
   const Experience = [
     {
-      role: "German Speaking Financial Accountant",
+      role: "Financial Accountant",
       name: "Unicredit",
       date: "july 2021 - jan 2022",
     },  
     {
-      role: "Digital Development Representative with German",
+      role: "Marketing Specialist",
       name: "Lenovo",
       date: "jan 2022 - july 2022",
     },
@@ -69,7 +69,7 @@ const Experience = () => {
               return (
                 <div key={index} className="qualification-data">
                   <div>
-                    <h3 className="qualification-titlee">{item.role}</h3>
+                    <h3 className="qualification-title">{item.role}</h3>
                     <span className="qualification-subtitle">{item.name}</span>
                     <div className="qualification-calendar">
                       <i className="uil uil-calendar-alt"></i> {item.date}
@@ -86,7 +86,7 @@ const Experience = () => {
           <div className="pos-abs qualification-content-active">
             {Experience.map((item, index) => {
               return (
-                <div key={index} className="qualification-dataa">
+                <div key={index} className="qualification-data">
                   <div>
                     <h3 className="qualification-titlee">{item.role}</h3>
                     <span className="qualification-subtitlee">

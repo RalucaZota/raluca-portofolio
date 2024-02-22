@@ -38,7 +38,7 @@ const Experience = () => {
     {
       role: "Frontend-Dev.",
       name: "Super Dev",
-      date: "july 2022 - jan 2023",
+      date: "2022 - 2023",
     },
     {
         role: "Frontend-Dev.",

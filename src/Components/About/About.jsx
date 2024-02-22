@@ -1,5 +1,5 @@
 import "./About.scss";
-import Resume from "../../assets/LORENARALUCAZOTA.pdf";
+import Resume from "../../assets/LorenaRalucaZota.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -12,10 +12,10 @@ const About = () => {
         <div className="about-data">
           <Info />
           <p className="about-description">
-            Hi! I am a dedicated frontend developer with over 1.8 years of experience, I bring proficiency in Vue.js, React, and JavaScript to the table. My journey in web development covers substantial contributions to diverse projects, reflecting a commitment to delivering innovative and high-quality solutions. I enjoy exploring and implementing creative solutions to bring value to the projects I work on. I enthusiastically share my knowledge and experience, contributing to the success of every project I'm involved in. I am eager to continually broaden my skill set and and I would like to develop on the mobile side as well. With hands-on experience in these technologies, coupled with a proven track record of successful project collaborations, I am enthusiastic about tackling new challenges and advancing my expertise in this ever-evolving industry.
+            Hi! I am a dedicated frontend developer with 2 years of experience, I bring proficiency in Vue.js, React, and JavaScript to the table. My journey in web development covers substantial contributions to diverse projects, reflecting a commitment to delivering innovative and high-quality solutions. I enjoy exploring and implementing creative solutions to bring value to the projects I work on. I enthusiastically share my knowledge and experience, contributing to the success of every project I'm involved in. I am eager to continually broaden my skill set and and I would like to develop on the mobile side as well. With hands-on experience in these technologies, coupled with a proven track record of successful project collaborations, I am enthusiastic about tackling new challenges and advancing my expertise in this ever-evolving industry.
           </p>
           <a
-            download="LORENRALUCAZOTA.pdf"
+            download="LorenaRalucaZota.pdf"
             href={Resume}
             className="button button--flex"
             id="portfolio"

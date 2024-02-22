@@ -4,12 +4,12 @@ const Info = () => {
         <div className="about-box">
           <i className="bx bx-award about-icon"></i>
           <h3 className="about-title">Experience</h3>
-          <span className="about-subtitle">Over 1.8 Years Working</span>
+          <span className="about-subtitle">2 Years Working</span>
         </div>
         <div className="about-box">
           <i className="bx bx-briefcase about-icon"></i>
           <h3 className="about-title">Completed</h3>
-          <span className="about-subtitle"> 13+ Projects</span>
+          <span className="about-subtitle"> 10+ Projects</span>
         </div>
         <div className="about-box">
           <i className="bx bx-support about-icon"></i>
